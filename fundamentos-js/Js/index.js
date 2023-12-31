@@ -2,11 +2,18 @@ const array = [1, 2, 3, 4];
 let tipo1;
 var tipo2;
 
-/*for(let i = 0 ; i < array.length ; i++) {
-    console.log(array[i])
-}*/
+/*
+Iterar array!!
 
-/*const array2 = array.map(Element => Element*2)
+for(let i = 0 ; i < array.length ; i++) {
+    console.log(array[i])
+}
+*/
+
+/*
+Tierar y Filtrar un nuevo array!!
+
+const array2 = array.map(Element => Element*2)
 const array3 = array.map(elemento => console.log(elemento*2))
 
 const array4 = array.filter((elemnto, index) => {
